@@ -3,7 +3,7 @@ import {
     destroyCommand,
     command,
     invoke
-} from "https://cdn.jsdelivr.net/npm/@erykzenith/fivem-nui-bridge@latest/dist/index.js"
+} from "https://cdn.jsdelivr.net/npm/@erykzenith/fivem-nui-bridge@1.1.1/dist/index.js"
 
 
 (async ()=>{
