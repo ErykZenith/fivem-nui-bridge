@@ -1,9 +1,9 @@
 Wait(1000)
 iframe.invoke.log("lua")
-iframe.createCommand({
+iframe.init({
     print = function(...)
         print(...)
-        iframe.destroyCommand("print")
+        iframe.remove("print")
         return "lua ok"
     end
 })
